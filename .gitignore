@@ -5,3 +5,11 @@
 # Non-skills directories (root)
 /branding/
 
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Generated skill artifacts
+/skills/news-writing.zip
+/skills/news-writing/outputs/screenshots/

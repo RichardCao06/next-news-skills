@@ -1,0 +1,3 @@
+display_name: 新闻写作助手
+short_description: 写作、核验、截图审核裁剪并API发布
+default_prompt: 先按类型模板完成白名单取材与事实核验，再做图片审核裁剪，最后输出可发布稿并按需通过站点API发布。

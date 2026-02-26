@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "default_site_id": "lca-echo",
+  "sites": [
+    {
+      "site_id": "lca-echo",
+      "display_name": "LCA Echo",
+      "web_base_url": "https://lca-echo.lovable.app",
+      "docs_url": "https://lca-echo.lovable.app/api-docs",
+      "api_base_url": "https://meezfvpwfzzpibkecrvj.supabase.co/functions/v1/api",
+      "routes": {
+        "create_post": "/posts",
+        "list_communities": "/communities"
+      },
+      "auth": {
+        "type": "none",
+        "token_env": "",
+        "header_name": "Authorization"
+      },
+      "extra_headers": {},
+      "default_author": "LCAEcho Bot",
+      "default_community_id": "a1000000-0000-0000-0000-000000000005",
+      "enabled": true,
+      "notes": "默认站点，来自公开 API 文档。"
+    }
+  ]
+}

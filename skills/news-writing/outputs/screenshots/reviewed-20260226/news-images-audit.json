@@ -1,0 +1,30 @@
+{
+  "strict_validation": true,
+  "match_mode": "all",
+  "min_keyword_hit": 2,
+  "audit_deny_keywords": [
+    "blocked",
+    "access denied",
+    "verify you are human",
+    "captcha",
+    "unusual traffic"
+  ],
+  "results": [
+    {
+      "index": "1",
+      "label": "SimaPro计划卡片区",
+      "page_url": "https://simapro.com/plans/",
+      "status": "ok_downloaded",
+      "validation": "keyword validation passed (mode=all, hit=3/3)",
+      "image_ref": "/Users/shujudagongren/Documents/New project/skills/news-writing/outputs/screenshots/reviewed-20260226/01-simapro计划卡片区.png"
+    },
+    {
+      "index": "2",
+      "label": "ecoinvent企业许可表",
+      "page_url": "https://ecoinvent.org/licenses/enterprise/",
+      "status": "ok_downloaded",
+      "validation": "keyword validation passed (mode=all, hit=3/3)",
+      "image_ref": "/Users/shujudagongren/Documents/New project/skills/news-writing/outputs/screenshots/reviewed-20260226/02-ecoinvent企业许可表.png"
+    }
+  ]
+}
